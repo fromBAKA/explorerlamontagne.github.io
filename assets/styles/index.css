@@ -350,7 +350,7 @@ nav .ul-2 li a:hover {
   font-size: 0.8rem;
 }
 #section1 .container-first .img-1 {
-  background: url(/assets/images/pic01.jpg) center/cover;
+  background: url(../images/pic01.jpg) center/cover;
   width: 80%;
   height: 60vh;
   margin: 0 auto;
