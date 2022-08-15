@@ -262,11 +262,11 @@ nav .ul-2 li a:hover {
 #section1 .container-first .date::before {
   content: "";
   background: rgba(208, 208, 208, 0.495);
-  width: 8%;
+  width: 30%;
   height: 1px;
   position: absolute;
   right: 60%;
-  top: 7%;
+  top: 7.4%;
 }
 @media screen and (max-width: 969px) {
   #section1 .container-first .date::before {
@@ -296,7 +296,7 @@ nav .ul-2 li a:hover {
   height: 1px;
   position: absolute;
   right: 10%;
-  top: 7%;
+  top: 7.35%;
 }
 @media screen and (max-width: 969px) {
   #section1 .container-first .date::after {

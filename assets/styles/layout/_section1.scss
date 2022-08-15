@@ -27,11 +27,11 @@
             &::before {
                 content: "";
                 background: $color-sep;
-                width: 8%;
+                width: 30%;
                 height: 1px;
                 position: absolute;
                 right: 60%;
-                top: 7%;
+                top: 7.4%;
 
                 @media screen and (max-width: 969px) {
                     top: 70px;
@@ -59,7 +59,7 @@
                 height: 1px;
                 position: absolute;
                 right: 10%;
-                top: 7%;
+                top: 7.35%;
 
                 @media screen and (max-width: 969px) {
                     top: 70px;
