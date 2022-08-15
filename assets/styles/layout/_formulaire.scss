@@ -1,0 +1,226 @@
+.section2 {
+    height: 760px;
+    width: 100%;
+
+
+    .container-section2 {
+        display: flex;
+        background: $color1;
+        width: 85%;
+        margin: 20px auto;
+        
+
+        @media screen and (max-width: 967px) {
+            display: block;
+        }
+        
+        .left-part {
+        width: 50%;
+        padding: 60px 30px 60px 40px;
+
+        @media screen and (max-width: 967px) {
+            width: 100%;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            
+            label {
+                padding: 15px 0;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-family: $font-inter;
+                color: $color3;
+                letter-spacing: 2px;
+                font-size: 0.8rem;
+            }
+            
+            input[type="text"] {
+                height: 40px;
+                border: 1px solid $color3;
+                opacity: 0.3;
+                border-radius: 5px;
+            }
+            
+            textarea {
+                resize: none;
+                height: 31vh;
+                border: 1px solid $color3;
+                opacity: 0.3;
+                border-radius: 5px;
+            }
+            
+
+            .container-submit {
+                width: 100%;
+
+                .button {
+                    padding: 10px 20px;
+                    font-weight: bold;
+                    color: $color3;
+                    font-family: $font-inter;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                border: 3px solid $color3;
+                background: transparent;
+                cursor: pointer;
+                font-size: 0.7rem;
+                transition: 0.5s ease-in-out;
+                margin: 40px 0;
+
+                @media screen and (max-width: 647px) {
+                    font-size: 0.6rem;
+                }
+            
+            &:hover {
+                background: $color2;
+                color: $color1;
+                border: 3px solid $color2;
+            }
+            }
+
+        }
+    }
+}
+    
+    .right-part {
+    width: 50%;
+
+    @media screen and (max-width: 967px) {
+        width: 100%;
+    }
+    
+    .adress-zone {
+        position: relative;
+        padding: 110px 0 50px 30px;
+        border: 1px solid $color-sep;
+        
+        h4 {
+            position: absolute;
+            top: 50%;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: $font-inter;
+            color: $color3;
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+        }
+        
+        p {
+            position: absolute;
+            top: 48%;
+            transform: translateY(-50%);
+            left: 50%;
+            font-family: serif;
+            color: $color3;
+            opacity: 0.7;
+            line-height: 20px;
+            font-size: 0.8rem;
+            margin: 20px 0 0;
+        }
+    }
+    
+    .phone-zone {
+        position: relative;
+        padding: 70px 0 50px 30px;
+        border: 1px solid $color-sep;
+        
+        h4 {
+            position: absolute;
+            top: 50%;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: $font-inter;
+            color: $color3;
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+        }
+
+        p {
+            font-family: serif;
+            color: $color3;
+            opacity: 0.7;
+            font-size: 0.8rem;
+            position: absolute;
+            top: 48%;
+            left: 50%;
+        }
+        
+    }
+    .email-zone {
+        position: relative;
+        padding: 90px 0 70px 30px;
+        border: 1px solid $color-sep;
+        
+        h4 {
+            position: absolute;
+            top: 50%;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: $font-inter;
+            color: $color3;
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+        }
+        
+        p {
+            font-family: serif;
+            color: $color3;
+            opacity: 0.7;
+            font-size: 0.8rem;
+            position: absolute;
+            top: 48%;
+            left: 50%;
+        }
+    }
+    
+    .social-zone {
+        position: relative;
+        padding: 70px 0 70px 30px;
+        border: 1px solid $color-sep;
+        
+        h4 {
+            position: absolute;
+            top: 50%;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: $font-inter;
+            color: $color3;
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+        }
+        
+        .container-social {
+            position: absolute;
+            top: 48%;
+            left: 49%;
+            
+
+                a {
+                    border: 1px solid $color-sep;
+                    border-radius: 50px;
+                    color: $color2;
+                    margin: 0 5px;
+                    font-size: 0.8rem;
+                    transition: 0.5s ease;
+                    padding: 7px 8px;
+
+                    
+                    &:hover {
+                        border: 1px solid $color1;
+                        color: $color1;
+                        background: $color2;
+                    }
+                }
+
+                i {
+                    width: 11px;
+                    height: 30px;
+                }
+            }
+    }
+        
+    }
+}
+}

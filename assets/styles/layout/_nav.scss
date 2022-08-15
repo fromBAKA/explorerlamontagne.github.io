@@ -1,0 +1,113 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.253);
+    color: $color1;
+    width: 85%;
+    height: 65px;
+    z-index: 100;
+    margin: 0 auto;
+    
+    @media screen and (max-width: 1118px) {
+        width: 85%;
+    }
+    
+    @media screen and (max-width: 540px) {
+        bottom: -3%;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+    }
+    .ul-1 {
+      &:hover li:not(:hover) {
+        background: none;
+        color: $color1;
+      }
+
+      li {
+        font-family: $font-inter;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        padding: 0 15px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        @media screen and (max-width: 700px) {
+          font-size: 0.5rem;
+        }
+
+        @media screen and (max-width: 387px) {
+            font-size: 0.4rem;
+            padding: 0;
+          }
+
+        &:first-child {
+          background: $color1;
+          color: $color2;
+        }
+        &:hover {
+          background: $color1;
+          color: $color2;
+        }
+      }
+    }
+    .ul-2 {
+      font-size: 1.1rem;
+      min-width: 100px;
+      width: 25%;
+      max-width: 300px;
+      justify-content: space-around;
+      margin-right: 10px;
+      list-style: none;
+
+      @media screen and (max-width: 700px) {
+        display: none;
+      }
+
+      li {
+        transition: 0.15s;
+        cursor: pointer;
+
+        a {
+            color: $color1;
+            
+            .fa-twitter:hover {
+                color: rgb(0, 217, 255);
+            }
+            
+            .fa-facebook-f:hover {
+                color: rgb(3, 0, 200);
+            }
+            
+            .fa-instagram:hover {
+                color: #C13584;
+            }
+
+            .fa-github:hover {
+                color: $color2;
+            }
+            
+            &:hover {
+                transform: scale(1.3);
+            }
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+    
+    
+    
+    
+            
+            

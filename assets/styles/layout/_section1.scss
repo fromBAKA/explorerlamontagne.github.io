@@ -1,0 +1,236 @@
+#section1 {
+    background: $color1;
+    height: auto;
+    width: 85%;
+    margin: 0 auto;
+    
+    
+
+    @media screen and (max-width: 540px) {
+        &::after {
+            content: "";
+            display: none;
+
+        }
+
+    }
+
+
+    .container-first {
+        text-align: center;
+        position: relative;
+
+        .date {
+            padding: 60px 0;
+            font-family:  "sans-serif";
+    
+            &::before {
+                content: "";
+                background: $color-sep;
+                width: 8%;
+                height: 1px;
+                position: absolute;
+                right: 60%;
+                top: 7%;
+
+                @media screen and (max-width: 969px) {
+                    top: 70px;
+                    left: 10%;
+                    width: 25%;
+                }
+
+                @media screen and (max-width: 580px) {
+                    top: 70px;
+                    left: 9%;
+                    width: 20%;
+                }
+
+                @media screen and (max-width: 354px) {
+                    top: 70px;
+                    left: 9%;
+                    width: 10%;
+                }
+            }
+    
+            &::after {
+                content: "";
+                background:  $color-sep;
+                width: 30%;
+                height: 1px;
+                position: absolute;
+                right: 10%;
+                top: 7%;
+
+                @media screen and (max-width: 969px) {
+                    top: 70px;
+                    right: 10%;
+                    width: 25%;
+                }
+
+                @media screen and (max-width: 580px) {
+                    top: 70px;
+                    right: 9%;
+                    width: 20%;
+                }
+
+                @media screen and (max-width: 354px) {
+                    top: 70px;
+                    right: 9%;
+                    width: 10%;
+                }
+            }
+        }
+
+        h2 {
+            width: 50%;
+            margin: 0 auto;
+            font-size: 2.7rem;
+            text-transform: uppercase;
+
+            @media screen and (max-width: 1267px) {
+                width: 70%;
+            }
+
+            @media screen and (max-width: 910px) {
+                font-size: 1.8rem;
+            }
+
+            @media screen and (max-width: 368px) {
+                font-size: 1.4rem;
+            }
+    }
+
+    .p-sous-h2 {
+        width: 52%;
+        padding: 40px 0;
+        margin: 0 auto;
+        line-height: 30px;
+        text-align: center;
+        font-family: serif;
+        font-size: 0.8rem;
+    }
+
+    .img-1 {
+        background: url(/assets/images/pic01.jpg) center/cover;
+        width: 80%;
+        height: 60vh;
+        margin: 0 auto;
+
+        @media screen and (max-width: 606px) {
+            height: 30vh;
+        }
+
+        @media screen and (max-width: 350px) {
+            height: 20vh;
+        }
+    }
+
+
+    button {
+        margin: 40px 0;
+
+
+        @media screen and (max-width: 429px) {
+            padding: 10px 20px;
+            font-size: 0.6rem;
+        }
+    }
+
+}
+}
+
+.container-second {
+    display: flex;
+    position: relative;
+
+    @media screen and (max-width: 540px) {
+        display: block;
+    }
+
+    .left-part {
+        border: 1px solid $color-sep;
+        text-align: center;
+        
+
+        @media screen and (max-width: 540px) {
+            border: none;
+        }
+
+
+        p {
+            padding: 40px 0 20px;
+            font-family: serif;
+        }
+
+        h3 {
+            width: 50%;
+            margin: 0 auto;
+            font-size: 1.4rem;
+            font-family: $font-inter;
+            text-transform: uppercase;
+            padding: 0 0 20px;
+        }
+
+        img {
+            width: 80%;
+        }
+
+        .sed {
+            line-height: 30px;
+            text-align: left;
+            font-size: 0.8rem;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        button {
+            margin: 0 0 60px;
+        }
+    }
+
+
+
+    .right-part {
+        border: 1px solid $color-sep;
+        text-align: center;
+
+        @media screen and (max-width: 540px) {
+            border: none;
+        }
+
+        p {
+            padding: 40px 0 20px;
+            font-family: serif;
+        }
+
+        h3 {
+            width: 50%;
+            margin: 0 auto;
+            font-size: 1.4rem;
+            font-family: $font-inter;
+            text-transform: uppercase;
+            padding: 0 0 20px;
+        }
+        
+        img {
+            width: 80%;
+        }
+
+        .primis {
+            line-height: 30px;
+            text-align: left;
+            font-size: 0.8rem;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        @media screen and (max-width: 540px) {
+            .right-part, button {
+                margin: 0 0 60px;
+            }
+        }
+    }
+
+}
